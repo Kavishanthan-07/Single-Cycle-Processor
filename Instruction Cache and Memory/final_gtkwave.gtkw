@@ -1,0 +1,59 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Jul 16 04:26:10 2025
+[*]
+[dumpfile] "C:\Users\PC\Documents\CO224 - Computer Architecture\Lab 6\Part3\cpu_wavedata.vcd"
+[dumpfile_mtime] "Wed Jul 16 03:53:27 2025"
+[dumpfile_size] 257048
+[savefile] "C:\Users\PC\Documents\CO224 - Computer Architecture\Lab 6\Part3\final_gtkwave.gtkw"
+[timestart] 648420
+[size] 1366 705
+[pos] -139 -98
+*-13.017681 661000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[sst_width] 197
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 190
+@28
+cpu_tb.CLK
+cpu_tb.INSTRUCTION[31:0]
+@24
+cpu_tb.PC[31:0]
+@200
+-
+-Instruction Memory
+@28
+cpu_tb.imem.read
+@22
+cpu_tb.imem.address[5:0]
+@28
+cpu_tb.imem.busywait
+cpu_tb.imem.readinst[127:0]
+@200
+-
+-Cache
+@28
+cpu_tb.c3.read_instr[31:0]
+cpu_tb.c3.read
+cpu_tb.c3.tag[2:0]
+cpu_tb.c3.temp_addr[9:0]
+cpu_tb.c3.index[2:0]
+cpu_tb.c3.offset[3:0]
+cpu_tb.c3.valid
+cpu_tb.c3.hit
+cpu_tb.c3.busywait_out
+@22
+cpu_tb.c3.\instr[0][127:0]
+@200
+-
+-Registers
+@24
+cpu_tb.mycpu.reg1.\regfile[4][7:0]
+cpu_tb.mycpu.reg1.\regfile[5][7:0]
+cpu_tb.mycpu.reg1.\regfile[6][7:0]
+@25
+cpu_tb.mycpu.reg1.\regfile[1][7:0]
+[pattern_trace] 1
+[pattern_trace] 0
