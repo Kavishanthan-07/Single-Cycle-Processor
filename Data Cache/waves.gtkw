@@ -1,0 +1,55 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Jul 08 08:51:28 2025
+[*]
+[dumpfile] "C:\Users\PC\Documents\CO224 - Computer Architecture\Lab 6\Part2\cpu_wavedata.vcd"
+[dumpfile_mtime] "Tue Jul 08 06:10:45 2025"
+[dumpfile_size] 264260
+[savefile] "C:\Users\PC\Documents\CO224 - Computer Architecture\Lab 6\Part2\waves.gtkw"
+[timestart] 226120
+[size] 861 705
+[pos] 504 -1
+*-12.915802 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[sst_width] 197
+[signals_width] 182
+[sst_expanded] 1
+[sst_vpaned_height] 190
+@28
+cpu_tb.CLK
+cpu_tb.INSTRUCTION[31:0]
+@24
+cpu_tb.mycpu.OPCODE[7:0]
+cpu_tb.PC[31:0]
+@28
+cpu_tb.mycpu.BUSYWAIT
+cpu_tb.mycpu.READ
+cpu_tb.mycpu.WRITE
+@200
+-
+-Cache Memory
+@24
+cpu_tb.cache1.ADDRESS[7:0]
+@22
+cpu_tb.cache1.READDATA[7:0]
+@24
+cpu_tb.cache1.WRITEDATA[7:0]
+@28
+cpu_tb.cache1.cache_tag[2:0]
+cpu_tb.cache1.data_block[31:0]
+cpu_tb.cache1.index[2:0]
+@22
+cpu_tb.cache1.mem_readdata[31:0]
+@28
+cpu_tb.cache1.mem_address[5:0]
+cpu_tb.cache1.mem_writedata[0:31]
+@200
+-
+-Cache 
+@28
+cpu_tb.cache1.\data[0][31:0]
+cpu_tb.cache1.\dirty_bit[0]
+cpu_tb.cache1.\tag_bits[0][2:0]
+cpu_tb.cache1.\valid_bit[0]
+[pattern_trace] 1
+[pattern_trace] 0
