@@ -1,0 +1,52 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Jun 24 18:24:37 2025
+[*]
+[dumpfile] "C:\Users\PC\Documents\CO224 - Computer Architecture\Lab 6\cpu_wavedata.vcd"
+[dumpfile_mtime] "Tue Jun 24 18:18:25 2025"
+[dumpfile_size] 105003
+[savefile] "C:\Users\PC\Documents\CO224 - Computer Architecture\Lab 6\final_done.gtkw"
+[timestart] 0
+[size] 1366 705
+[pos] -35 -35
+*-4.000000 31 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[sst_width] 197
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 190
+@28
+cpu_tb.CLK
+cpu_tb.RESET
+@24
+cpu_tb.PC[31:0]
+cpu_tb.mycpu.pc1.PC_NEXT[31:0]
+@28
+cpu_tb.INSTRUCTION[31:0]
+@22
+cpu_tb.mycpu.OPCODE[7:0]
+@200
+-
+-ALU
+@24
+cpu_tb.mycpu.alu1.DATA1[7:0]
+cpu_tb.mycpu.alu1.DATA2[7:0]
+cpu_tb.mycpu.alu1.RESULT[7:0]
+@28
+cpu_tb.mycpu.alu1.SELECT[2:0]
+@200
+-
+-Registers
+@22
+cpu_tb.mycpu.reg1.\regfile[0][7:0]
+cpu_tb.mycpu.reg1.\regfile[1][7:0]
+cpu_tb.mycpu.reg1.\regfile[2][7:0]
+cpu_tb.mycpu.reg1.\regfile[3][7:0]
+@200
+-
+-Memory
+@22
+cpu_tb.mem1.\memory_array[0][7:0]
+[pattern_trace] 1
+[pattern_trace] 0
